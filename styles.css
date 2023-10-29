@@ -1,0 +1,121 @@
+/*common nav styles*/
+body {
+    margin: 0px;
+}
+
+/* Navigation wrapper */
+
+.navigation-wrapper {
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1fr 3fr;
+    align-items: center;
+    margin-top: 1px;    
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navigation wrapper > image */
+.navigation-wrapper > .codepen-image img {
+    width: 180px;
+    padding-left: 30px;
+}
+
+/* Navigation wrapper > center column */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.navigation-wrapper > .center-column > .explore-banner {
+    /*font-family: 'Lato', sans-serif;*/
+    font-size: 1.3em;
+    text-decoration: none;
+    color: rgb(250, 230, 116);
+}
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper a {
+    /*font-family: 'Lato', sans-serif;*/
+    font-weight: 900;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation wrapper > spark */
+.navigation-wrapper > .spark-item {
+    padding-top: 25px;
+    /*font-family: 'Lato', sans-serif;*/
+    font-weight: 500;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: rgb(167, 166, 166);
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navigation-wrapper > .spark-item > .chevron-icon i {
+    padding-left: 15px;
+    font-size: 0.7em;
+    padding-bottom: 5px;
+}
+
+/* Navigation wrapper > buttons */
+.navigation-wrapper > .navigation-wrapper-buttons {
+    display: grid;
+    grid-template-columns: 3fr 1.2fr 1.5fr 2fr;
+    align-items: center;
+    height: 60px;
+}
+
+.btn {
+    background-color: #3b3a3a;
+    color: #fff9f9;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    padding: 17px 25px;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+    border: none;
+}
+
+.navigation-wrapper > .navigation-wrapper-buttons > .create-btn {
+    padding-left: 70px;
+}
+
+.navigation-wrapper > .navigation-wrapper-buttons > .create-btn i {
+    color: #5ddb92;
+}
+
+.navigation-wrapper > .navigation-wrapper-buttons > .lupa-btn > .btn {
+    background-color: transparent;
+    padding-left: 30px;
+}
+
+.navigation-wrapper > .navigation-wrapper-buttons > .lupa-btn > .btn i {
+    color: #858484;
+    font-size: 2em;
+}
+
+
+.navigation-wrapper > .navigation-wrapper-buttons > .sign-up-btn {
+    padding-left: 10px;
+}
+
+
+
+
+
+/* font-family: 'Quicksand', sans-serif; */
