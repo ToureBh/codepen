@@ -114,8 +114,134 @@ body {
     padding-left: 10px;
 }
 
+/* Hero section */
+.hero-section {
+    background-color: #2c2c35;
+    width: 100%;
+    margin: 0px;
+    height: 550px;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+
+}
+
+/* Hero section > left side */
+.hero-section > .left-side-wrapper {
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.hero-section > .left-side-wrapper > .left-side-wrapper-text > #first-paragraph {
+    margin: 0px;
+    font-size: 2.4em;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 43px;
+}
+
+.hero-section > .left-side-wrapper > .left-side-wrapper-text > #first-paragraph > .bold {
+    font-weight: 900;
+}
+
+.hero-section > .left-side-wrapper > .left-side-wrapper-text > #second-paragraph {
+    margin-top: 30px;
+    font-size: 2em;
+    color: rgb(172, 172, 172);
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.hero-section > .left-side-wrapper > .left-side-wrapper-buttons {
+    height: 78px;
+    padding-top: 8px;
+    padding-right: 180px;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    column-gap: 20px;
+}
+
+.hero-section > .left-side-wrapper > .left-side-wrapper-buttons > .green-btn {
+    background-color: #5bbd7c;
+    color: black;
+    font-size: 2.2em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+}
+
+.hero-section > .left-side-wrapper > .left-side-wrapper-buttons > .black-btn {
+    background-color: #141414;
+    color: rgb(255, 255, 255);
+    font-size: 2.2em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+}
 
 
+/* Hero section > right side */
+.hero-section > .right-side-wrapper > .right-side-text p {
+    padding-top: 35px;
+    padding-left: 29px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
 
+.hero-section > .right-side-wrapper > .right-side-text p > .blue {
+    color: rgb(102, 210, 253);
+}
+
+
+.hero-section > .right-side-wrapper img {
+    width: 550px;
+    padding-left: 17px;
+}
+
+/* Bottom section */
+.bottom-section {
+    background-color: #36363d;
+    height: 72px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}  
+
+.bottom-section p {
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+    height: 42px;
+    border: 1px solid rgb(128, 128, 128);
+    padding-top: 13px;
+    padding-bottom: 16px;
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    
+}
+
+.bottom-section p > .bold {
+    font-family: 'Alata', sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+/* End page */
+.end-page {
+    height: 100px;
+    width: 100%;
+    background-color: #202022;
+}
 
 /* font-family: 'Quicksand', sans-serif; */
